@@ -5,38 +5,21 @@ export default {
   themeConfig: {
     nav: [
       { text: '홈', link: '/' },
-      { text: '사용법', link: '/guide' }
+      { text: '전체 가이드', link: '/guide' }
     ],
     sidebar: [
       {
-        text: '🚀 시작하기',
-        collapsed: false,
+        text: '📖 전체 메뉴',
         items: [
-          { text: '로그인 안내', link: '/guide' }, // 아직 파일이 없으니 임시로 guide 연결
-          { text: '화면 구성 파악', link: '/guide' }
-        ]
-      },
-      {
-        text: '🛠️ 에디터 기능 상세',
-        collapsed: true,
-        items: [
-          { text: '텍스트 편집기', link: '/guide' },
-          { text: '멀티미디어(이미지/영상)', link: '/guide' },
-          { text: '인터랙션 요소', link: '/guide' }
-        ]
-      },
-      {
-        text: '✅ 제작 및 배포',
-        collapsed: true,
-        items: [
-          { text: '저장 정책', link: '/guide' },
-          { text: '최종 검수 리스트', link: '/guide' }
+          { text: '🛠️ 에디터 기능 상세', link: '/guide#에디터-기능-상세' },
+          { text: '✅ 제작 및 배포', link: '/guide#제작-및-배포' },
+          { text: '📂 버전 관리', link: '/guide#버전-관리' }
         ]
       }
     ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/visang-dicon/iBook-guide' }
-    ],
-    outline: { label: '이 페이지의 목차' }
+    outline: { 
+      label: '이 페이지의 목차',
+      level: [2, 3] // ##(2)와 ###(3) 소제목을 우측 목차에 표시
+    }
   }
 }
