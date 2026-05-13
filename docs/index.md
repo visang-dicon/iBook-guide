@@ -11,7 +11,7 @@ hero:
       link: /guide
     - theme: alt
       text:  중고등 비바샘 바로가기
-      link: https://www.visang.com](https://v.vivasam.com/
+      link: https://v.vivasam.com/
 
 features:
   - title: "실시간 업데이트"
