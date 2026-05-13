@@ -9,17 +9,15 @@ export default {
     ],
     sidebar: [
       {
-        text: '📖 전체 메뉴',
+        text: '📖 가이드 목록',
+        collapsed: false, 
         items: [
-          { text: '🛠️ 에디터 기능 상세', link: '/guide#에디터-기능-상세' },
-          { text: '✅ 제작 및 배포', link: '/guide#제작-및-배포' },
-          { text: '📂 버전 관리', link: '/guide#버전-관리' }
+          // 이제 각 메뉴를 클릭하면 독립된 파일(.md)로 이동합니다.
+          { text: '🛠️ 에디터 기능 상세', link: '/features' }, 
+          { text: '✅ 제작 및 배포', link: '/process' },
+          { text: '📂 버전 관리', link: '/version' }
         ]
       }
-    ],
-    outline: { 
-      label: '이 페이지의 목차',
-      level: [2, 3] // ##(2)와 ###(3) 소제목을 우측 목차에 표시
-    }
+    ]
   }
 }
