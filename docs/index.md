@@ -2,22 +2,20 @@
 layout: home
 
 hero:
-  name: "iBook Studio 이용 가이드"
-  text: "가장 쉬운 에디터 사용법 안내"
-  tagline: "예산 없이 구축하는 최적의 서비스 안내 페이지"
+  name: "iBook Studio"
+  text: "공식 이용 가이드"
+  tagline: "노션보다 빠른 속도로 확인하는 에디터 매뉴얼"
   actions:
     - theme: brand
-      text: 이용 방법 가이드 시작
+      text: 가이드 읽기
       link: /guide
     - theme: alt
-      text:  중고등 비바샘 바로가기
-      link: https://v.vivasam.com/
+      text: 중고등 비바샘 바로가기
+      link: https://www.visang.com
 
 features:
-  - title: "실시간 업데이트"
-    details: "GitHub 웹에서 직접 수정하고 저장하면 1분 내로 반영됩니다."
-  - title: "영구 무상 운영"
-    details: "추가 비용이나 서버 관리 없이 깃허브를 통해 안정적으로 서비스됩니다."
-  - title: "인수인계 최적화"
-    details: "공용 계정 하나로 모든 문서 권한이 관리되어 인수인계가 간편합니다."
+  - title: "📄 간편한 문서화"
+    details: "마크다운 기반으로 노션처럼 쉽게 글을 쓰고 수정할 수 있습니다."
+  - title: "⚡ 빠른 속도"
+    details: "로그인 없이 즉시 로딩되어 사용자 대기 시간을 최소화합니다."
 ---
