@@ -1,26 +1,27 @@
-export default {
-  title: "iBook Studio 가이드",
-  description: "iBook Studio로 이북 만들기 단계별 이용 안내서",
-  base: '/iBook-guide/',
-  themeConfig: {
-    // 노션처럼 깔끔한 로고와 검색 기능을 상상하며 구성합니다.
-    nav: [
-      { text: '홈', link: '/' },
-      { text: '사용법', link: '/guide' }
-    ],
-    sidebar: [
-      {
-        text: '📖 이용 가이드',
-        items: [
-          { text: '시작하기', link: '/guide' },
-          // 나중에 파일을 추가하면 여기에 줄을 늘리면 됩니다.
-        ]
-      }
-    ],
-    // 오른쪽 상단에 깃허브 링크를 넣어 전문성을 더합니다.
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/visang-dicon/iBook-guide' }
-    ],
-    outline: { label: '이 페이지의 목차' } // 노션의 '목차' 블록 같은 역할입니다.
+sidebar: [
+  {
+    text: '🚀 시작하기',
+    collapsed: false, // 메뉴를 기본으로 펼쳐둠
+    items: [
+      { text: '로그인 안내', link: '/start/login' },
+      { text: '화면 구성 파악', link: '/start/interface' }
+    ]
+  },
+  {
+    text: '🛠️ 에디터 기능 상세',
+    collapsed: true, // 내용이 많으니 평소엔 접어둠
+    items: [
+      { text: '텍스트 편집기', link: '/features/text' },
+      { text: '멀티미디어(이미지/영상)', link: '/features/media' },
+      { text: '인터랙션 요소', link: '/features/interaction' }
+    ]
+  },
+  {
+    text: '✅ 제작 및 배포',
+    collapsed: true,
+    items: [
+      { text: '저장 정책', link: '/process/save' },
+      { text: '최종 검수 리스트', link: '/process/inspect' }
+    ]
   }
-}
+]
