@@ -10,8 +10,8 @@ hero:
       text: 이용 방법 가이드 시작
       link: /guide
     - theme: alt
-      text: 비상교육 바로가기
-      link: https://www.visang.com
+      text:  중고등 비바샘 바로가기
+      link: https://www.visang.com](https://v.vivasam.com/
 
 features:
   - title: "실시간 업데이트"
